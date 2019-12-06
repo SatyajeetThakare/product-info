@@ -1,1 +1,14 @@
 /* You can add global styles to this file, and also import other style files */
+
+body {
+  padding-top: 60px;
+}
+
+.nav-link {
+  color: grey;
+}
+
+.nav-link:hover {
+  color: black;
+  font-weight: bold;
+}
