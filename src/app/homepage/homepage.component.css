@@ -25,7 +25,8 @@ body {
 }
 
 .menu-link {
-    color: #fff !important;
+    /* color: #fff !important; */
+    color: #3b3b3b !important;
     text-decoration: none !important;
     font-size: 12px;
     font-weight: bold;
