@@ -1,11 +1,5 @@
-<!-- <nav class="navbar navbar-expand-sm fixed-top justify-content-end opaque-navbar">
-
-  <a class="menu-logo d-block d-sm-none text-center" href="#"></a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-
-  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+<div class="d-none d-xs-none d-sm-none d-md-block d-lg-block">
+  <nav class="navbar navbar-expand-sm fixed-top justify-content-end opaque-navbar">
     <ul class="nav navbar-nav navbar-right">
       <li class="nav-item">
         <a class="menu-logo" routerLinkActive="active" href="#"></a>
@@ -18,7 +12,7 @@
       </li>
       <li class="nav-item">
         <div class="dropdown">
-          <a class="nav-link menu-link" routerLink='products' href="#products"> PRODUCTS </a>
+          <a class="nav-link menu-link"> PRODUCTS </a>
           <div class="dropdown-content">
             <a routerLink="products/oil">Oil</a>
             <a routerLink="products/shampoo">Shampoo</a>
@@ -29,10 +23,10 @@
         <a class="nav-link menu-link" routerLink="contact-us"> CONTACT US </a>
       </li>
     </ul>
-  </div>
-</nav> -->
+  </nav>
+</div>
 
-<nav class="navbar navbar-expand-sm fixed-top justify-content-end opaque-navbar">
+<nav class="navbar navbar-expand-sm fixed-top justify-content-end navbar-dark bg-dark d-xs-block d-sm-block d-md-none d-lg-none">
   <a class="navbar-brand" href="javascript:void(0)">
 
   </a>
@@ -69,12 +63,13 @@
   </div>
 </nav>
 
+
 <div class="inside-page">
   <router-outlet></router-outlet>
 </div>
 
 <div class="footer">
-  <div class="text-center" style="padding-top: 55px;">
+  <div class="text-center footer-icons">
     <a class="footer-link" href="https://www.facebook.com/SesaHairCare/" target="_blank">
       <i class="fab fa-facebook-f"></i>
     </a>

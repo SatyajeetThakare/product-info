@@ -296,3 +296,25 @@ body {
     font-size: 14px;
     font-weight: bold;
 }
+
+@media only screen and (max-width: 768px) {
+  .mobile-margin-remove {
+    margin-top: -185px;
+  }
+
+  .homepage {
+    margin-top: 60px;
+  }
+
+  .green-square {
+    height: 380px;
+  }
+
+  .yellow-img-up {
+    margin: -248px 0 5px 60px;
+  }
+
+  #follow-us {
+    margin-top: 30px;
+  }
+}

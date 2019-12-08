@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 
-import { CanActivate, ActivatedRouteSnapshot, RouterStateSnapshot, Router, ActivatedRoute } from '@angular/router';
+import { CanActivate, ActivatedRouteSnapshot, RouterStateSnapshot, Router, ActivatedRoute, NavigationEnd } from '@angular/router';
 import { Observable } from 'rxjs';
 
 @Component({
@@ -19,6 +19,14 @@ export class ProductsComponent implements OnInit {
   list_products: ['oil', 'shampoo'];
 
   ngOnInit() {
+
+    this.router.events.subscribe((evt) => {
+      if (!(evt instanceof NavigationEnd)) {
+          return;
+      }
+      window.scrollTo(0, 0)
+    });
+
     this.route.params.subscribe(params => {
       this.product_name = params.product.trim().toLowerCase();
       console.log('this.product_name', this.product_name);

@@ -362,3 +362,32 @@ nav > ul > li > a .active {
 .dropdown:hover .dropdown-content {display: block;}
 
 .dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+.footer-icons {
+  padding-top: 55px;
+}
+
+@media only screen and (max-width: 768px) {
+
+  .inside-page {
+    margin-top: 60px;
+  }
+
+  .navbar-brand {
+    background: url('src/assets/images/logo.png') top left no-repeat;
+    background-size: 90px;
+    width: 81%;
+    height: 45px;
+    top: 15px;
+  }
+
+  .footer {
+    background: url(src/assets/images/footerbg.png) no-repeat top left;
+    background-size: cover;
+    height: 50%;
+  }
+
+  .footer-icons {
+    padding-top: 15px;
+  }
+}

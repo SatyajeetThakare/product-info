@@ -6,3 +6,40 @@ img {
   min-width: 1350px;
   max-width: 1350px;
 }
+
+.lady-image {
+  width: 90%;
+  height: 480px;
+}
+
+.about-us-products {
+  width: 70%;
+  height: 200px;
+}
+
+
+@media only screen and (max-width: 768px) {
+  .lady-image {
+    margin-left: 14%;
+    width: 72%;
+    height: 79%;
+  }
+
+  .about-us-products {
+    width: 100%;
+    height: 100%;
+  }
+
+  .mobile-margin-top-lady {
+    margin-top: 30px;
+  }
+
+  .container {
+    min-width: 100%;
+    max-width: 100%;
+  }
+
+  img {
+    height: 200px;
+  }
+}
