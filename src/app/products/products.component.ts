@@ -26,7 +26,7 @@ export class ProductsComponent implements OnInit {
     });
   }
 
-  baseUrl: string = '../assets/images/';
+  baseUrl: string = 'assets/images/';
   productInfo: any;
   productImage: any;
   getProductImages(productName: string) {
