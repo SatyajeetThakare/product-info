@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>ProductApp</title>
+  <title>Sesa Care</title>
   <base href="/">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
@@ -13,9 +13,9 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
 
   <!-- <link rel="stylesheet" href="src/assets/css/bootstrap.css"> -->
-  <link rel="stylesheet" href="css/style.css">
-  <script src="js/jQuery3.4.1.js" type=""></script>
-  <script src="js/bootstrap.min.js" ></script>
+  <!-- <link rel="stylesheet" href="css/style.css"> -->
+  <!-- <script src="js/jQuery3.4.1.js" type=""></script>
+  <script src="js/bootstrap.min.js" ></script> -->
 
   <style>
     /* Make the image fully responsive */
@@ -66,6 +66,18 @@
 
     $(document).ready(function(){
       $('[data-toggle="tooltip"]').tooltip();
+    });
+
+    $(document).ready(function() {
+      // Transition effect for navbar
+      $(window).scroll(function() {
+        // checks if window is scrolled more than 300px, adds/removes solid class
+        if($(this).scrollTop() > 300) {
+            $('.navbar').addClass('solid');
+        } else {
+            $('.navbar').removeClass('solid');
+        }
+      });
     });
 
     </script>

@@ -4,6 +4,10 @@ body {
     margin: 0;
 }
 
+.homepage {
+  margin-top: -65px;
+}
+
 .header {
     position: fixed;
     top: 0;
@@ -16,12 +20,12 @@ body {
 
 .menu-logo {
     background: url('src/assets/images/logo.png') top left no-repeat;
-    background-size: 70px;
-    width: 75px;
-    height: 31px;
+    background-size: 90px;
+    width: 85px;
+    height: 45px;
     position: absolute;
     top: 7px;
-    left: 0;
+    left: 15px;
 }
 
 .menu-link {
@@ -208,11 +212,29 @@ body {
     margin-bottom: 010px;
 }
 
+.follow-txt > a {
+    color: #000;
+    font-size: 13px;
+    font-weight: 600;
+    margin-bottom: 010px;
+}
+
+.follow-txt > a:hover {
+  text-decoration: none;
+}
+
 .follow-tags {
     color: #ff5e00;
     font-size: 13px;
     font-weight: 600;
     padding-bottom: 12px;
+}
+
+.follow-tags > a {
+  color: #ff5e00;
+  font-size: 13px;
+  font-weight: 600;
+  padding-bottom: 12px;
 }
 
 .follow-link {

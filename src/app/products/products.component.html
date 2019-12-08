@@ -1,0 +1,40 @@
+<div class="section-products" id="products">
+  <div class="banner">
+    <img [src]="productImage.poster">
+  </div>
+  <div class="container mt-4">
+    <div class="row">
+      <div class="col-md-7">
+        <h2 class="home-header"> {{productInfo.header}}</h2>
+        <p class="home-txt">
+          {{productInfo.description}}
+        </p>
+      </div>
+      <div class="col-md-5">
+        <img [src]="productImage.productInfo" style="width: 90%; height: 312px;">
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <h2 class="home-header"> Benefits</h2>
+        <div class="row text-center">
+          <div class="col-md-4">
+            <img [src]="productImage.reference1">
+            <p class="mt-2">{{productInfo.reference1}}</p>
+          </div>
+          <div class="col-md-4">
+            <img [src]="productImage.reference2">
+            <p class="mt-2">{{productInfo.reference2}}</p>
+          </div>
+          <div class="col-md-4">
+            <img [src]="productImage.reference3">
+            <p class="mt-2">{{productInfo.reference3}}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

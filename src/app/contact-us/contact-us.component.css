@@ -1,0 +1,59 @@
+.about {
+    padding-top: 3%;
+    padding-bottom: 0%;
+}
+
+.navbar.solid {
+  background-color: #556b2f;
+  transition: background-color 1s ease 0s;
+  box-shadow: 0 0 4px grey;
+
+    .navbar-brand {
+      color: #C57ED3;
+      transition: color 1s ease 0s;
+    }
+
+    .navbar-nav {
+      > li {
+        > a {
+          color: #C57ED3;
+          transition: color 1s ease 0s;
+        }
+      }
+    }
+}
+
+input {
+  border: 0;
+  outline: 0;
+  background: transparent;
+  border-bottom: 1px solid black;
+  width: 100%
+}
+
+.follow-img {
+  margin-left: 304px;
+  margin-top: -75px;
+  width: 69%;
+  display: block;
+  margin-bottom: 15px;
+  height: 185px;
+}
+
+.footer {
+  margin-top: -100px;
+}
+
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:500px;
+    position:relative;
+    height:0;
+}
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
