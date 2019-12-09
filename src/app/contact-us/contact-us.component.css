@@ -31,13 +31,12 @@ input {
   width: 100%
 }
 
-.follow-img {
-  margin-left: 304px;
+.follow-img  {
+  margin-left: calc(100% - 150px);
   margin-top: -75px;
-  width: 69%;
+  width: 300px;
   display: block;
   margin-bottom: 15px;
-  height: 185px;
 }
 
 .footer {
@@ -56,4 +55,13 @@ input {
     height:100%;
     width:100%;
     position:absolute;
+}
+
+@media (max-width: 576px) {
+  .follow-img{
+    margin-left: calc(50% - 100px);
+    width: 200px;
+    margin-top: 16px;
+    height: inherit;
+}
 }

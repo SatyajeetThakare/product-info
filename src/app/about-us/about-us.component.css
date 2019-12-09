@@ -16,13 +16,35 @@ img {
   width: 70%;
   height: 200px;
 }
+.abt-us-ico {
+  text-align: center;
+}
+.abt-us-ico img{
+  width: 200px;
+}
 
+@media (max-width: 576px) {
+
+  .abt-us-ico {
+    text-align: center;
+    position: absolute;
+    top: 0;
+    left: calc(50% - 100px); 
+}
+.prod-down{
+
+}
+.prod-up{
+
+}
+
+}
 
 @media only screen and (max-width: 768px) {
   .lady-image {
     margin-left: 14%;
     width: 72%;
-    height: 79%;
+    margin-bottom: 50px;
   }
 
   .about-us-products {
@@ -39,7 +61,4 @@ img {
     max-width: 100%;
   }
 
-  img {
-    height: 200px;
-  }
 }

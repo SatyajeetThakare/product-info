@@ -376,9 +376,10 @@ nav > ul > li > a .active {
   .navbar-brand {
     background: url('src/assets/images/logo.png') top left no-repeat;
     background-size: 90px;
-    width: 81%;
+    width: calc(100% - 90px);
     height: 45px;
     top: 15px;
+    /* margin-left: 5%; */
   }
 
   .footer {
@@ -389,5 +390,8 @@ nav > ul > li > a .active {
 
   .footer-icons {
     padding-top: 15px;
+  }
+  .footer-link{
+    margin-right: 30px;
   }
 }
