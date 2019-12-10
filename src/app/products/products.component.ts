@@ -41,6 +41,7 @@ export class ProductsComponent implements OnInit {
     console.log('productName', productName);
     this.productImage = {
       poster: this.baseUrl + 'poster-' + productName + '.png',
+      posterMob: this.baseUrl + 'poster-' + productName + '-mob.png',
       productInfo: this.baseUrl + 'productInfo-' + productName + '.png',
       reference1: this.baseUrl + 'reference1-' + productName + '.png',
       reference2: this.baseUrl + 'reference2-' + productName + '.png',

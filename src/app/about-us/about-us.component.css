@@ -16,11 +16,22 @@ img {
   width: 70%;
   height: 200px;
 }
+
 .abt-us-ico {
   text-align: center;
 }
+
 .abt-us-ico img{
   width: 200px;
+}
+
+.prod-down {
+  position: absolute;
+  bottom: 10px;
+}
+
+.prod-up{
+  margin-bottom: 260px;
 }
 
 @media (max-width: 576px) {

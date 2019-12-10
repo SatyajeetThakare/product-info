@@ -6,21 +6,7 @@
 .navbar.solid {
   background-color: #556b2f;
   transition: background-color 1s ease 0s;
-  box-shadow: 0 0 4px grey;
-
-    .navbar-brand {
-      color: #C57ED3;
-      transition: color 1s ease 0s;
-    }
-
-    .navbar-nav {
-      > li {
-        > a {
-          color: #C57ED3;
-          transition: color 1s ease 0s;
-        }
-      }
-    }
+  box-shadow: 0 0 4px grey;   
 }
 
 input {

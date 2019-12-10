@@ -6,3 +6,14 @@ img {
   width: 100%;
   margin-left: -2px !important;
 }
+.prod-oil-img{
+  width: 70%;
+}
+
+@media (max-width: 576px) {
+  .prod-oil-img {
+    width: 60%;
+    margin-left: 20% !important;
+    margin-bottom: 35px;
+}
+}
