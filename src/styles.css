@@ -95,6 +95,7 @@ body {
 .home-txt {
     font-size: 15px;
     line-height: 23px;
+    text-align: justify;
 }
 
 .home-link {
@@ -351,6 +352,7 @@ body {
   }
 .red-square, .green-square, .brown-square, .yellow-square {
   height: 280px;
+  margin-top: 220px;
 }
 .red-square img {
   width: 40%;
